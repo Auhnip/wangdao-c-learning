@@ -7,6 +7,8 @@
             "command": "D:\\library\\mingw64\\bin\\gcc.exe",
             "args": [
                 "-g",       //for debug
+		"-Wall",
+		"-Wextra",
                 "${fileDirname}/*.c",      //source filename
                 "-o",
                 "${fileDirname}/main-gdb.exe",       //exe filename
@@ -26,6 +28,8 @@
             "command": "D:/library/mingw64/bin/gcc.exe",
             "args": [
                 "-static",
+		"-Wall",
+		"-Wextra",
                 "${fileDirname}/*.c",
                 "-o",
                 "${fileDirname}/main.exe",
